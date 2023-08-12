@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World</title>
+</head>
+
+<body>
+    <header>
+        <h1>Introdução ao Git e Javascript</h1>
+    </header>
+    <script>
+        document.write("Hello World<br>");
+
+        document.getElementById("text").innerHTML = "Hello World<br>";
+
+        var p = document.createElement("p");
+        p.textContent = "Hello World";
+        document.body.appendChild(p);
+
+        var clone = document.getElementById("text").cloneNode(true);
+        document.body.appendChild(clone);
+
+        var text = "Hello";
+        text = text.concat(" ", "World");
+        document.write(text);
+
+        var str = "Hello World";
+        var res = str.substring(0, 5) + " " + str.substring(6);
+        document.write(res);
+
+        var str = "Hello World";
+        var res = str.replace("World", "JavaScript");
+        document.write(res);
+
+        var str = "hello world";
+        var res = str.toUpperCase();
+        document.write(res);
+
+        var str = "Hello,World";
+        var res = str.split(",");
+        document.write(res[0] + " " + res[1]);
+
+        var str = "Hello World";
+        var res = str.substring(6, 11);
+        document.write(res);
+    </script>
+</body>
+
+</html>
