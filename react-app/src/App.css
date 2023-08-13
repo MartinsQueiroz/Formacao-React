@@ -28,40 +28,10 @@
   color: #61dafb;
 }
 
-.head-1 {
-  color: coral;
+.heading {
+  color: #f0f8ff;
 }
 
-.head-2{
-  color: blue;
-}
-
-.head-3{
-  color: blueviolet;
-}
-
-.head-4{
-  color: chartreuse;
-}
- .head-5{
-  color: darkorange;
- }
-
- .h6 {
-  color: tomato;
- }
- 
- .paragraph {
-  color: red;
- }
-
- .text {
-  color: aqua;
- }
-
- .word {
-  color: yellow;
- }
 
 @keyframes App-logo-spin {
   from {
@@ -71,3 +41,4 @@
     transform: rotate(360deg);
   }
 }
+
