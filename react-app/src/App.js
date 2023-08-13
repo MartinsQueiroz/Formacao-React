@@ -1,24 +1,27 @@
 
 import './App.css';
+import Welcome from './components/welcome';
+import WelcomeClass from './components';
+import React from 'react';
+import Clock from './components/Clock';
+import BemVindo from './components/BemVindo'
 
-function MyApp() {
+
+export default function MyApp() {
   return (
     <div className="App">
       <header className="App-header">
-      <h1 className='head-1'>Welcome to my app</h1>
-      <h2 className='head-2'>Welcome to my app</h2>
-      <h3 className='head-3'>Welcome to my app</h3>
-      <h4 className='head-4'>Welcome to my app</h4>
-      <h5 className='head-5'>Welcome to my app</h5>
-      <h6 className='head-5'>Welcome to my app</h6>
-      <p className='paragraph'>Welcome to my app</p>
-      <p className='paragraph'>Welcome to my app</p>
-      <span className='text'>Welcome to my app</span>
-      <small className='word'>Welcome to my app</small>
-
+      <Clock />
+      <Welcome name="Lucas" />
+      <WelcomeClass name="Lucas" />
+      <BemVindo name="Lucas"/>
+      <h1>Welcome</h1>
+      <h2>Welcome</h2>
+      <h3>Welcome</h3>
+      <h4>Welcome</h4>
+      <h5>Welcome</h5>
+      <h6>Welcome</h6>
       </header>
     </div>
   );
 }
-
-export default MyApp;
