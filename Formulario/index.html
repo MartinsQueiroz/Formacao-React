@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>HTML - Formulario Fale Conosco</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <h2>Formulário</h2>
+    </header>
+    <div class="container">
+        <p id="p1"><strong>Preencha os campos abaixo</strong></p>
+        <form id="myForm" name="form" action="#">
+
+            <div>
+                <label for="nome">Nome</label><br>
+                <input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+            </div>
+
+            <div>
+                <label for="email">E-mail</label><br>
+                <input type="email" name="email" id="email" placeholder="Digite seu e-mail">
+            </div>
+            <div>
+
+                <label for="mensagem">Mensagem</label><br>
+                <textarea name="mensagem" id="mensagem" rows="5"></textarea>
+            </div>
+            <label for="age">Idade:</label>
+            <input type="radio" id="age1" name="age" value="10-20" required>
+            <label for="age1">10 - 20</label>
+            <input type="radio" id="age2" name="age" value="21-30" required>
+            <label for="age2">21 - 30</label>
+            <input type="radio" id="age3" name="age" value="31-40" required>
+            <label for="age3">31 - 40</label>
+
+            <label for="interests">Interesses:</label>
+            <input type="checkbox" id="interest1" name="interests" value="sports">
+            <label for="interest1">Esportes</label>
+            <input type="checkbox" id="interest2" name="interests" value="music">
+            <label for="interest2">Música</label>
+            <input type="checkbox" id="interest3" name="interests" value="travel">
+            <label for="interest3">Viagens</label>
+
+            <div>
+                <p>
+                    <label>Qual a sua cor favorita?</label>
+                    <select>
+                        <option value="azul" selected>Azul</option>
+                        <option value="verde">Verde</option>
+                        <option value="vermelho">Vermelho</option>
+                    </select>
+                </p>
+
+            </div>
+
+            <div>
+                <button type='submit' class="button">Submit</button>
+            </div>
+        </form>
+
+    </div>
+    <script src="./Forms.js"></script>
+</body>
+
+
+</html>
