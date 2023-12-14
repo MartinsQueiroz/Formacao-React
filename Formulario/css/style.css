@@ -73,7 +73,7 @@
   /* Responsive layout - make the two colums/boxes stack on top of each other instead of next to each other, on small screens */
   @media (min-width: 769px){
     body{
-        background-image: url("../Imagens/pattern4.png");
+        background-image: url("../assets/pattern4.png");
     } 
 }
 
