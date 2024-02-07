@@ -2,7 +2,7 @@
 import './App.css';
 import React from 'react';
 import Clock from './components/Clock';
-import Welcome from './components/Welcome'
+import Welcome from './components/Welcome';
 import Button from './components/Button';
 import Calculator from './components/Calculator';
 import Display from './components/Display';
