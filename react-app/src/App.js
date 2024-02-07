@@ -1,12 +1,12 @@
 
 import './App.css';
 import React from 'react';
-import Clock from './components/Clock';
-import Welcome from './components/Welcome';
+import Clock from './components/Js/Clock';
+import Welcome from './components/Js/Welcome';
 import Button from './components/Button';
-import Calculator from './components/Calculator';
-import Display from './components/Display';
-import Keypad from './components/Keypad';
+import Calculator from './components/Js/Calculator';
+import Display from './components/Js/Display';
+import Keypad from './components/Js/Keypad';
 
 
 
