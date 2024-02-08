@@ -3,7 +3,7 @@ import './App.css';
 import React from 'react';
 import Clock from './components/Js/Clock';
 import Welcome from './components/Js/Welcome';
-import Button from './components/Button';
+import Button from './components/Js/Button';
 import Calculator from './components/Js/Calculator';
 import Display from './components/Js/Display';
 import Keypad from './components/Js/Keypad';
