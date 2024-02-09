@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
-import Button from '../style/Button.css';
-import '../style/Calculator.css';
-import Display from '../style/Display.css';
-import Keypad from '../style/Keypad.css';
+import '../Button/Button.css';
+import './Calculator.css';
+import '../Display/Display.css';
+import '../Keypad/Keypad.css';
 
 class Calculator extends Component {
     constructor() {
@@ -35,7 +35,7 @@ class Calculator extends Component {
     render(){
         return(
             <div className="Calculator">
-                <Display data={this.state.data}/>
+                <Display data={this.state.data} /> 
                 <Keypad>
                     <Button onClick={this.handleClick} label="C" value="clear" />
                     <Button onClick={this.handleClick} label="7" value="7" />
