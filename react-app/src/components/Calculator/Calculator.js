@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import Button from "..Button/Button"
-import Display from "..Display/Display"
-import Keypad from "..Keypad/Keypad"
+import Button from "../Button/Button";
+import Display from "../Display/Display";
+import Keypad from "../Keypad/Keypad";
 import '../Button/Button.css';
 import './Calculator.css';
 import '../Display/Display.css';
